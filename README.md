@@ -7,7 +7,7 @@ This is a quick description on how you can use the app and make it work locally.
 2. go to the folder where you cloned the app and do `npm install`
 3. then do `npm start`
 4. open `localhost:3000`
-5. enter a random number into text field
+5. enter a random number into the textfield
 <img width="466" alt="Screenshot 2019-07-28 at 18 15 39" src="https://user-images.githubusercontent.com/22856303/62009858-f3b33f00-b163-11e9-8488-92e33424269e.png">
 <br>
 6. click `Start`
