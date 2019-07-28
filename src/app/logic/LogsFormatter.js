@@ -6,8 +6,8 @@ export default class LogsFormatter {
     }
 
     formatInput = () => {
-        const logs = this.input.map((entry) => {
-            return `${entry.number} ==> ${entry.valid} \n`
+        const logs = this.input.map((entry, index) => {
+            return `-> ~$ (admin) ${index + 1}: Value: ${entry.number} || Magic: ${entry.valid} \n`
         })
         return logs.toString().replace(new RegExp(',', 'g'), '')
     }

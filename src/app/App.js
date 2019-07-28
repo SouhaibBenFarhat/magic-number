@@ -15,7 +15,7 @@ export default class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      range: 1000,
+      range: 60000,
       magicNumbers: [],
       result: [],
       showError: false,
@@ -66,7 +66,7 @@ export default class App extends React.Component {
     return (
       <div>
         <Modal
-          height={500}
+          height={700}
           width={500}
           icon="computer"
           title="Magic number finder"
@@ -81,7 +81,7 @@ export default class App extends React.Component {
               </Tab>
             </Tabs>
           </div>
-          <div style={{ marginTop: 20, maxHeight: 400, overflowY: 'scroll' }}>
+          <div style={{ marginTop: 20, maxHeight: 470, overflowY: 'scroll' }}>
             <Fieldset legend="Result">
               <Result magicNumbers={magicNumbers} loading={loading} />
             </Fieldset>
