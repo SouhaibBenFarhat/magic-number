@@ -1,7 +1,7 @@
 - This app is created using `create-react-app` https://github.com/facebook/create-react-app
 - Design and UI made by `react95` https://github.com/React95/React95
 
-This is a quick description on how you can use them and make it work locally.
+This is a quick description on how you can use the app and make it work locally.
 
 1. Clone the repository `git clone` <br>
 2. go to the folder where you cloned the app and do `npm install`
